@@ -1,4 +1,4 @@
-!function(){var e,t="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:"undefined"!=typeof window?window:"undefined"!=typeof global?global:{},n={},i="Expected a function",o=0/0,r=/^\s+|\s+$/g,f=/^[-+]0x[0-9a-f]+$/i,a=/^0b[01]+$/i,u=/^0o[0-7]+$/i,l=parseInt,c="object"==typeof t&&t&&t.Object===Object&&t,s="object"==typeof self&&self&&self.Object===Object&&self,d=c||s||Function("return this")(),m=Object.prototype.toString,v=Math.max,g=Math.min,p=function(){return d.Date.now()};/**
+var e,t="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:"undefined"!=typeof window?window:"undefined"!=typeof global?global:{},n={},i="Expected a function",o=0/0,r=/^\s+|\s+$/g,f=/^[-+]0x[0-9a-f]+$/i,a=/^0b[01]+$/i,u=/^0o[0-7]+$/i,l=parseInt,c="object"==typeof t&&t&&t.Object===Object&&t,s="object"==typeof self&&self&&self.Object===Object&&self,d=c||s||Function("return this")(),m=Object.prototype.toString,v=Math.max,g=Math.min,p=function(){return d.Date.now()};/**
  * Checks if `value` is the
  * [language type](http://www.ecma-international.org/ecma-262/7.0/#sec-ecmascript-language-types)
  * of `Object`. (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
@@ -149,13 +149,6 @@ u=setTimeout(h,(e=o-l,n=o-c,i=t-e,d?g(i,f-n):i))}function O(e){return(// Only in
 (u=void 0,m&&o)?j(e):(o=r=void 0,a))}function S(){var e,n=p(),i=T(n);if(o=arguments,r=this,l=n,i){if(void 0===u)return(// Reset any `maxWait` timer.
 c=e=l,// Start the timer for the trailing edge.
 u=setTimeout(h,t),s?j(e):a);if(d)return(// Handle invocations in a tight loop.
-u=setTimeout(h,t),j(l))}return void 0===u&&(u=setTimeout(h,t)),a}return t=b(t)||0,y(n)&&(s=!!n.leading,f=(d="maxWait"in n)?v(b(n.maxWait)||0,t):f,m="trailing"in n?!!n.trailing:m),S.cancel=function(){void 0!==u&&clearTimeout(u),c=0,o=l=r=u=void 0},S.flush=function(){return void 0===u?a:O(p())},S}(e,t,{leading:o,maxWait:t,trailing:r})};let j="feedback-form-state",T=JSON.parse(localStorage.getItem(j))||{};(form=document.querySelector(".feedback-form")).addEventListener("input",((e=n)&&e.__esModule?e.default:e)(function(e){T[e.target.name]=e.target.value.trim(),localStorage.setItem(j,JSON.stringify(T))},500)),form.addEventListener("submit",function(e){e.preventDefault(),//      if (refs.input.value === "" || refs.textarea.value === "") {
-//          return alert(`Please fill in all the fields!`);
-//      }
-// or
-// const { email, message } = e.currentTarget.elements;
-// console.log({ email: email.value, message: message.value });
-// or
-console.log(T),e.currentTarget.reset(),localStorage.removeItem(j),T={}}),function(){if(T){let{email:e,message:t}=form.elements;e.value=T.email||"",t.value=T.message||""}}()}();//# sourceMappingURL=03-feedback.f75ef44d.js.map
-
-//# sourceMappingURL=03-feedback.f75ef44d.js.map
+u=setTimeout(h,t),j(l))}return void 0===u&&(u=setTimeout(h,t)),a}return t=b(t)||0,y(n)&&(s=!!n.leading,f=(d="maxWait"in n)?v(b(n.maxWait)||0,t):f,m="trailing"in n?!!n.trailing:m),S.cancel=function(){void 0!==u&&clearTimeout(u),c=0,o=l=r=u=void 0},S.flush=function(){return void 0===u?a:O(p())},S}(e,t,{leading:o,maxWait:t,trailing:r})};const j="feedback-form-state";let T=JSON.parse(localStorage.getItem(j))||{};(form=document.querySelector(".feedback-form")).addEventListener("input",((e=n)&&e.__esModule?e.default:e)(function(e){T[e.target.name]=e.target.value.trim(),localStorage.setItem(j,JSON.stringify(T))},500)),form.addEventListener("submit",function(e){e.preventDefault(),console.log(T),e.currentTarget.reset(),localStorage.removeItem(j),T={}}),function(){if(T){let{email:e,message:t}=form.elements;e.value=T.email||"",t.value=T.message||""}}//# sourceMappingURL=03-feedback.50e4e7fb.js.map
+();
+//# sourceMappingURL=03-feedback.50e4e7fb.js.map
